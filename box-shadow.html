@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shadow</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    body{
+      background-color: #eaeaea;
+      color:#444;
+      font-family: sans-serif;
+    }
+    .card-container{
+      margin: 100px auto;
+      /* background-color: greenyellow; */
+      width:400px;
+      border-radius: 10px;
+      box-shadow:5px 5px 10px #c5c5c5, -5px -5px 10px #ffffff;
+      padding:25px;
+    }
+    .card-image{
+      width:130px;
+      height:130px;
+      /* background-color: blue; */
+      overflow:hidden;
+      border-radius: 50%;
+      margin:0 auto;
+    }
+    .card-image:hover{
+      cursor:pointer;
+    }
+    .card-image img:hover{
+      filter: grayscale(0.5);
+    }
+    .card-details{
+      text-align:center;
+    }
+    .card-details h2{
+      font-size:1.6rem;
+      font-weight:600;
+      margin-top:20px;
+      color: #444;
+    }
+    .card-details p{
+      text-align: justify;
+      line-height:1.4rem;
+    }
+    .card-details .description{
+      text-align:center;
+      color:lightseagreen;
+      font-weight: 600;
+      letter-spacing: 3px;
+      margin-bottom:10px;
+    }
+    .card-details a{
+      text-decoration: none;
+      background-color:lightseagreen;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      color:white;
+      font-weight: 600px;
+      display: inline-block;
+      margin:22px auto;
+      padding: 8px 22px;
+      border-radius:5px;
+    }
+    .card-details a:hover{
+      background-color: #7c7171;
+    }
+    .card-details a:active{
+      outline:2px solid lightseagreen;
+    }
+  </style>
+</head>
+<body>
+  <div class="box-shadow"></div>
+  <div class="neo-box"></div>
+  <div class="card-container">
+    <div class="card-image">
+      <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"alt="image" width="200px">
+    </div>
+    <div class="card-details">
+      <h2>Abu Anas Bappy</h2>
+      <p class="description">Web Developer</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at ex repellendus illum hic quasi tempora, quibusdam tenetur excepturi, ab reiciendis voluptatum incidunt assumenda! Numquam excepturi, soluta eligendi blanditiis magnam ipsum vitae quos aliquid perspiciatis facilis quae esse quia cumque illo labore? Alias cupiditate earum doloremque expedita dolorum impedit temporibus!</p>
+      <a href="#">Contact Me</a>
+    </div>
+  </div>
+</body>
+</html>

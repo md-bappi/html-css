@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fruits</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    body{
+      background-color: #d4cfd4;
+      /* background-color: crimson; */
+      text-align:center;
+
+    }
+    .card-wrapper{
+      width:300px;
+      height:600px;
+      overflow:hidden;
+      margin:100px auto;
+      box-shadow:inset 5px 5px 15px #b8b4b8, inset -5px -5px 15px #f5eff5;
+      padding:12px;
+      border-radius: 10px;
+
+    }
+    .card-image{
+      width:300px;
+      overflow:hidden;
+      position:relative;
+    }
+    .card-image img{
+      width:400px;
+      border-radius: 10px;
+    }
+    .card-image img:hover{
+      cursor:pointer;
+      filter:grayscale(0.5);
+    }
+    #ratting-point{
+      background-color: mediumseagreen;
+      display: inline-block;
+      padding:3px 8px;
+      color:white;
+      position:absolute;
+      top:0;
+      left:0;
+      border-radius: 10px 0 10px 0;
+    }
+    #persentence-rate{
+      background-color: salmon;
+      display: inline-block;
+      padding:3px 8px;
+      position:absolute;
+      top:0;
+      right:0;
+      border-radius: 0 10px 0 10px;
+    }
+    .card-details h2{
+      font-weight: 400;
+      margin:10px auto;
+    }
+    .card-details p{
+      text-align: justify;
+      line-height: 1.2rem;
+    }
+    .card-details a{
+      text-transform:uppercase;
+      font-size: 0.8rem;
+      text-decoration: none;
+      display: inline-block;
+      margin:15px auto;
+      background-color: crimson;
+      color:white;
+      padding:5px 12px;
+      border-radius: 5px;
+      box-shadow: inset 2px 2px 5px rgb(194, 17, 53), inset -2px -2px 5px rgb(248, 22, 67);
+      transition:0.3s;
+    }
+    .card-details a:hover{
+      background-color: rgb(20, 83, 220);
+      box-shadow: none;
+    }
+    .card-details a i{
+      margin:0 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-wrapper">
+    <div class="card-image">
+      <img src="https://i0.wp.com/agicagro.com/wp-content/uploads/2019/10/Amloki-Grafting.jpg?fit=1600%2C1200&ssl=1" alt="fruit image">
+      <p id="ratting-point">8.4/10</p>
+      <p id="persentence-rate">94%</p>
+    </div>
+    <div class="card-details">
+      <h2>Aggregate fruits</h2>
+      <p>An aggregate fruit is also called an aggregation, or etaerio; it develops from a single flower that presents numerous simple pistils.[16] Each pistil contains one carpel; together they form a fruitlet. The ultimate (fruiting) development of the aggregation of pistils is call During the sequence of development, a progression of seconore inflorescences are initiated in turn at the head of the branch or stem</p>
+      <a href="#"><i class="fa-brands fa-youtube"></i>learn more</a>
+    </div>
+  </div>
+</body>
+</html>
